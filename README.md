@@ -1,1 +1,2 @@
 # hw-4a
+To simplify the program, the githubAPI limits the number of calls, so the program is implemented over a period of time (including testing). To stay within the limits, it's better to implement gradually. One way to make the program easier was to use technologies like Redis to cache the data and make the collected data available for further data processing. This way you can limit your API calls and save the number of calls for actual testing. I personally faced the challenge of running out of API calls over and over again when trying to run the program.
